@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','Admincontroller@dashboard');
 Route::get('/data-tables','Admincontroller@data');
+
+Route ::get('item/form','itemcontroller@create');
+route::post('/item','itemcontroller@pertanyaan');
